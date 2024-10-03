@@ -1,13 +1,14 @@
 package com.vastrika.backend.DeliveryEmployee.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.vastrika.backend.DeliveryEmployee.model.DeliveryEmployee;
 import com.vastrika.backend.DeliveryEmployee.repository.DeliveryEmployeeRepository;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class DeliveryEmployeeService {
    
     @Autowired
