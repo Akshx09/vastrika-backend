@@ -1,11 +1,11 @@
 package com.vastrika.backend.cart.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.core.JsonProcessingException;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vastrika.backend.cart.model.CartItem;
 import com.vastrika.backend.cart.service.CartService;
 import com.vastrika.backend.customer.model.Customer;
-import com.vastrika.backend.product.model.Product;
+//import com.vastrika.backend.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
