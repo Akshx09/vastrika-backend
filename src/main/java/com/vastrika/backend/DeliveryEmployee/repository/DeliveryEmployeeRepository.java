@@ -4,6 +4,7 @@ import org.springframework.stereotype.Repository;
 import com.vastrika.backend.DeliveryEmployee.model.DeliveryEmployee;
 
 @Repository
+
 public interface DeliveryEmployeeRepository extends JpaRepository < DeliveryEmployee,String>{
    
 }
